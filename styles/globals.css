@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "@tailwindcss/postcss";
+@import "tw-animate-css";
 
 /* твои дизайн-токены (практически без изменений) */
 @custom-variant dark (&:is(.dark *));
