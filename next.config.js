@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // соберём полностью статический сайт в папку out/
-  output: 'export'
+  output: 'export',          // заменяет старый next export
+  images: { unoptimized: true }, // чтобы статический экспорт не ругался на next/image
 };
+
 module.exports = nextConfig;
