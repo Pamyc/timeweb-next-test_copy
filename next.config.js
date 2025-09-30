@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ⚡ статический экспорт в /out
+  // соберём полностью статический сайт в папку out/
+  output: 'export'
 };
-
 module.exports = nextConfig;
